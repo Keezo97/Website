@@ -1,0 +1,21 @@
+
+html, body {
+    margin:10px; /* margines strony wynosi 10px*/
+    text-align:center; /*wyśrodkowanie zawartości strony*/
+    font-size: 16px;
+    line-height: 1.7;
+    margin: 0;
+    height: 100%;
+}
+.intro-background{         /*Nie wyszło mi tu troche, bo chciałem, żeby ten obrazek był większy taki jak mój fiut*/
+    position: relative;
+    display: inline-block;
+    flex-direction:column;
+    padding:0 24px;
+    background-image:url("https://i.postimg.cc/nc6sGtkp/pic2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}

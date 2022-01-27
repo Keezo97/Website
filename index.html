@@ -4,26 +4,75 @@
 <head>
     <title>PieceofTrip | Biuro Podróży</title>
     <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
 <body>
     <div id="page">
-        <header>  <!--tutaj robimy ten pierwszy box, dodajemy fotkę na tło, wyśrodkujemy tytuł i podtytuł, a poniżej tego trzeba zrobić menu nawigacyjne-->
+        <header>
+            <!--tutaj robimy ten pierwszy box, dodajemy fotkę na tło, wyśrodkujemy tytuł i podtytuł, a poniżej tego trzeba zrobić menu nawigacyjne-->
             <div class="page-intro">
+                <div class="intro-background">
                 <h1 class="main-title">Piece of Trip</h1>
                 <h2 class="subtitle">Kawałek z podróży</h2>
+            </div>
                 <nav>
-                    Menu
+                    <ul>
+                        <!--Przerobić te punkty na nawigacje-->
+                        <li><a href="index.html">Strona Główna</a></li>
+                        <li>Oferta</li>
+                        <li>Newsletter</li>
+                    </ul>
                 </nav>
             </div>
         </header>
         <main>
             <div id="content">
-                <main>
-                    Sekcja główna
-                </main>
+
+                <section class="about">
+                    <h2 class="section-title">Kim jesteśmy?</h2>
+                    <article class="description">
+                        <p>Na co dzień pracujemy na etatach, w weekendy studiujemy zaocznie na
+                            Uniwersytecie Ekonomicznym w Poznaniu na kierunku Informatyka i Ekonometria, a w wolnym
+                            czasie organizujemy podróże dla znajomych. Teraz, chcemy dzielić się Naszymi
+                            umiejętnościami, żeby móc zabrać <b>WAS</b> w niesamowite miejsca ukryte na tym świecie.
+                        </p>
+                        <p>&nbsp;</p>
+                        <p>Nasza oferta będzie cały czas poszerzana o kolejne wyprawy. Samolotem, pociągiem, autem, czy
+                            autostopem...Każdy znajdzie sposób dla siebie. Każdy dostanie własny <b>Kawałek z Podróży
+                            </b></p>
+                    </article>
+                </section>
+
+                <section class="travel_container">
+                    <!--dodałem troche div żeby było łatwiej ci poukladac, jak    otworzyc stronke i wezmiesz "zbadaj" to ogarniesz czemu tyle-->
+                    <h2 class="section-title">Gruzja & Armenia</h2>
+                    <div class="text-photo-box">
+                        <div class="travel_description">
+                            <h3 class="article-title">Między Elbrusem a Araratem</h3>
+                            <!--zrób tak, żeby tekst był po lewej a obraz po prawej-->
+                            <article class="description">
+                                <p>Pyszne jedzenie, przyjaźni ludzie i nieziemskie widoki podziwiane z najlepszym winem.
+                                    Tym właśnie jest <b>Gruzja!</b> Być może chciałbyś poznać miejsce w którym osiadła
+                                    Arka Noego, albo doświadczyć duchowych przeżyć w jednym z tysiąca ormiańskich
+                                    monstarów? <b>Armenia</b> już na Ciebie czeka. Nie ma się nad czym zastanawiać, sam
+                                    zobacz!
+                                </p>
+                            </article>
+                        </div>
+                        <div class="travel_pic">
+                            <a href='second.html' target='_blank'>
+                                <img src='images/gruzja1.jpg' border='0' alt='Monastyr w Gruzji' />
+                            </a>
+                        </div>
+                    </div>
+                </section>
             </div>
         </main>
-        <footer>
-            Stopka
+        <!--zrobie jeszcze jedną sekcję ale dzisiaj juz nie mam czasu-->
+        <footer class="footer">
+            <!-- <time datetime="2022-02-05">05 luty</time> -->
+            <!-- <time>2022-02-05</time> nie wiem kurwa co z tą datą zrobić-->
+            &copy; 2022 UEP &amp; WebDevelopers (Kamil&ampArtur)
         </footer>
     </div>
 </body>
