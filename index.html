@@ -8,21 +8,32 @@
 
 <body>
     <div id="page">
-        <header>
-            <!--tutaj robimy ten pierwszy box, dodajemy fotkę na tło, wyśrodkujemy tytuł i podtytuł, a poniżej tego trzeba zrobić menu nawigacyjne-->
-            <div class="page-intro">
-                <div class="intro-background">
-                <h1 class="main-title">Piece of Trip</h1>
-                <h2 class="subtitle">Kawałek z podróży</h2>
-            </div>
-                <nav>
-                    <ul>
-                        <!--Przerobić te punkty na nawigacje-->
+        <header class="header">
+            <div class="menu_wrapper">
+                <!--tutaj robimy ten pierwszy box, dodajemy fotkę na tło, wyśrodkujemy tytuł i podtytuł, a poniżej tego trzeba zrobić menu nawigacyjne
+                Troszkę zmieniłem wygląd strony :) sprawdź czy Ci się podoba i daj znać jak coś trzeba zmienić to zmieniaj-->
+                <div class="page-logo">
+                    <p>KP/AM</p>
+                </div>
+                <div class="page-intro">
+                    <h1 class="main-title">Piece of Trip</h1>
+                    <h2 class="subtitle">Kawałek z podróży</h2>
+                </div>  
+                <nav class="page-menu">
+                    <ul class="page-menu_list">
+                        <!--Przerobić te punkty na nawigacje
+                        Może zamiast przeskakiwać między stronami zrobimy tak żeby przeskakiwało przewijało stronę na dół - do przedyskutowania ??-->
                         <li><a href="index.html">Strona Główna</a></li>
-                        <li>Oferta</li>
-                        <li>Newsletter</li>
+                        <li><a href="#">Oferta</a></li>
+                        <li><a href="#">Newsletter</a></li>
                     </ul>
-                </nav>
+                </nav> 
+            </div>
+            <!-- Dodałem przycisk na środku "Czytaj więcej" po naciśnięciu będzie przechodził do "O Nas"  -->
+            <div class="header-content">
+                <p>Kim jesteśmy?</p>
+                <p>Na co dzień pracujemy na etatach, w weekendy studiujemy zaocznie...</p>
+                <button>CZYTAJ WIĘCEJ</button>
             </div>
         </header>
         <main>

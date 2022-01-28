@@ -1,3 +1,12 @@
+/* reset */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
 
 html, body {
     margin:10px; /* margines strony wynosi 10px*/
@@ -7,15 +16,93 @@ html, body {
     margin: 0;
     height: 100%;
 }
-.intro-background{         /*Nie wyszło mi tu troche, bo chciałem, żeby ten obrazek był większy taki jak mój fiut*/
-    position: relative;
-    display: inline-block;
-    flex-direction:column;
-    padding:0 24px;
+
+.header { 
     background-image:url("https://i.postimg.cc/nc6sGtkp/pic2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
+
+.menu_wrapper {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:white;
+    align-items: center;
+    font-weight: bold;
+    height: 15vh;
+}
+
+.page-logo {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    align-self: stretch;
+    width:7%;
+    border-right: 3px solid #9e9e9e;  
+}
+
+.page-intro {
+    width: 75%;
+}
+
+.page-menu_list {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 18%;
+    
+}
+
+.page-menu_list li {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.page-menu_list li a {
+    color:white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/* Zmiana wyglądu po najechaniu */
+.page-menu_list li a:hover {
+    color:rgba(22, 75, 139, 1);
+}
+
+.header-content {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 85vh;
+    color: white;
+    font-size: 2rem; 
+}
+
+.header-content p {
+    width: 60%;
+}
+
+.header-content button {
+    padding: 25px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(8, 23, 41, 0);
+    border-radius: 5%;
+    transition: 0.3s;
+}
+/* Zmiana wyglądu po najechaniu */
+.header-content button:hover {
+    background-color: rgba(8, 23, 41, 0.5);
+}
+
+
+
+
