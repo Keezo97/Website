@@ -14,8 +14,8 @@ body {
   font-size: 16px;
   line-height: 1.7;
   margin: 0;
-  height: 100%;
 }
+/* header - css */
 
 .header {
   background-image: url("https://i.postimg.cc/nc6sGtkp/pic2.jpg");
@@ -43,7 +43,7 @@ body {
   justify-content: center;
   align-items: center;
   align-self: stretch;
-  width: 7%;
+  width: 10%;
   border-right: 3px solid #9e9e9e;
 }
 
@@ -98,7 +98,7 @@ body {
 }
 
 .header-content button {
-  padding: 25px;
+  padding: 25px 50px;
   border: 2px solid white;
   color: white;
   font-weight: bold;
@@ -113,7 +113,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .page-logo {
-    display: none;
+    width: 20%;
   }
 
   .page-menu_list {
@@ -130,19 +130,6 @@ body {
     transition: transform 0.3s ease-in;
   }
 
-  .page-intro {
-    text-align: left;
-    padding-left: 10vw;
-    width: 90%;
-  }
-
-  .page-intro h1 {
-    font-size: 1.3rem;
-  }
-  .page-intro h2 {
-    font-size: 1.3rem;
-  }
-
   .menu_wrapper {
     flex-wrap: wrap;
   }
@@ -152,7 +139,7 @@ body {
   }
 
   .header-content button {
-    padding: 20px;
+    padding: 20px 40px;
   }
 
   .header-content {
@@ -162,4 +149,66 @@ body {
 
 .burger-active {
   transform: translateX(0%);
+}
+
+/* Main - css. Section "about us" */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 50px;
+  width: 90%;
+  background-color: #f1f2f4;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+.about h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2.5rem;
+}
+.why_us {
+  height: 50vh;
+}
+
+/* Section travel */
+.travel_container .section-title {
+  margin-bottom: 20px;
+  border-top: 2px solid black;
+}
+.travel_container > div {
+  display: flex;
+  justify-content: center;
+}
+
+.travel_description {
+  width: 40%;
+  text-align: justify;
+  padding: 0 10px;
+}
+.travel_description h3 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.travel_pic {
+  width: 45%;
+}
+
+.travel_pic a {
+  display: block;
+  padding: 10px;
+}
+.travel_pic a img {
+  height: 45vh;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  height: 20vh;
 }
