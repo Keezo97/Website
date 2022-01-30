@@ -25,3 +25,9 @@ let currentDay = `${day}-${month}-${year}`;
 
 date.innerText = currentDay;
 
+//Slider
+var elem = document.querySelector('.opinions-wrapper');
+var flkty = new Flickity( elem, {
+  cellAlign: 'center',
+  contain: true
+});
