@@ -7,7 +7,7 @@
   padding: 0;
   box-sizing: border-box;
   list-style: none;
-  font-family: sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -22,6 +22,14 @@ body {
 
 .header {
   background-image: url("https://i.postimg.cc/nc6sGtkp/pic2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+}
+.header2 {
+  background-image: url("https://i.postimg.cc/Qt7WdYhq/pexels-tom-mal-k-2990848.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -93,11 +101,15 @@ body {
   align-items: center;
   height: 85vh;
   color: white;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #130c0c4f;
 }
 
-.header-content p {
+.header-content h2 {
+ font-variant: small-caps;
   width: 60%;
+  font-size: 2rem;
 }
 
 .header-content button {
@@ -238,7 +250,7 @@ body {
     margin: 50px 0;
 }
 .section-title {
-    text-align: center;
+  text-align: center;
   margin-bottom: 50px;
   font-size: 2.5rem;
 }
@@ -267,6 +279,8 @@ body {
 .travel_pic a img {
   height: 45vh;
 }
+#myImg:hover {opacity: 0.7;}
+
 
 
 /*TABELA*/
