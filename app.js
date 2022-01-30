@@ -9,3 +9,17 @@ const menuSlide = () =>{
 }
 
 menuSlide()
+
+
+"Current Date"
+
+const date = document.querySelector(".date");
+let today = new Date();
+
+let year = today.getFullYear();
+let month = today.getMonth() + 1;
+let day = today.getDate();
+
+let currentDay = `${day}-${month}-${year}`;
+
+date.innerText = currentDay;
