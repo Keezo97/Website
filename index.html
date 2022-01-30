@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <title>PieceofTrip | Biuro Podróży</title>
     <meta charset="utf-8">
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+
+
 <body>
     <div id="page">
         <header class="header">
@@ -16,7 +21,7 @@
                 <nav class="page-menu">
                     <ul class="page-menu_list">
                         <li><a href="index.html">Strona Główna</a></li>
-                        <li><a href="#">Oferta</a></li>
+                        <li><a href="second.html">Oferta</a></li>
                         <li><a href="#">Newsletter</a></li>
                     </ul>
                 </nav>
@@ -28,7 +33,7 @@
             </div>
             <div class="header-content">
                 <h1 class="main-title">Piece of Trip</h1>
-                <h2 class="subtitle">Kawałek z podróży</h2>
+                <h2 class="subtitle">kawałek z podróży</h2>
                 <button>O Nas</button>
             </div>
         </header>
@@ -38,14 +43,15 @@
                     <h2 class="section-title">Kim jesteśmy?</h2>
                     <article class="description">
                         <br>Na co dzień pracujemy na etatach, w weekendy studiujemy zaocznie na
-                            Uniwersytecie Ekonomicznym w Poznaniu na kierunku Informatyka i Ekonometria, a w wolnym
-                            czasie organizujemy podróże dla znajomych. <br>Teraz, chcemy dzielić się Naszymi
-                            umiejętnościami, żeby móc zabrać <strong>Was</strong> w niesamowite miejsca ukryte na tym świecie.</br>
+                        Uniwersytecie Ekonomicznym w Poznaniu na kierunku Informatyka i Ekonometria, a w wolnym
+                        czasie organizujemy podróże dla znajomych. <br>Teraz, chcemy dzielić się Naszymi
+                        umiejętnościami, żeby móc zabrać <strong>Was</strong> w niesamowite miejsca ukryte na tym
+                        świecie.</br>
                         </p>
                         <p>&nbsp;</p>
                         <p>Nasza oferta będzie cały czas poszerzana o kolejne wyprawy. Samolotem, pociągiem, autem, czy
                             autostopem...Każdy znajdzie sposób dla siebie. Każdy dostanie własny
-                        <br><strong><em>Kawałek z Podróży</em></strong></br>
+                            <br><strong><em>Kawałek z Podróży</em></strong></br>
                         </p>
                     </article>
                 </section>
@@ -84,19 +90,29 @@
                         <div class="travel_description">
                             <h3 class="article-title">&#8608;Między Elbrusem a Araratem&#8606;</h3>
                             <article class="description2">
-                                <br>Pyszne jedzenie, przyjaźni ludzie i nieziemskie widoki podziwiane z najlepszym winem.
-                                    Tym
-                                    właśnie jest <b>Gruzja!</b> <br>Być może chciałbyś poznać miejsce w którym osiadła Arka
-                                    Noego, albo doświadczyć duchowych przeżyć w jednym z tysiąca ormiańskich monastyrów?</br>
-                                    <b>Armenia</b> już na Ciebie czeka. Nie ma się nad czym zastanawiać, sam zobacz!
+                                <br>Pyszne jedzenie, przyjaźni ludzie i nieziemskie widoki podziwiane z najlepszym
+                                winem.
+                                Tym
+                                właśnie jest <b>Gruzja!</b> <br>Być może chciałbyś poznać miejsce w którym osiadła Arka
+                                Noego, albo doświadczyć duchowych przeżyć w jednym z tysiąca ormiańskich
+                                monastyrów?</br>
+                                <b>Armenia</b> już na Ciebie czeka. Nie ma się nad czym zastanawiać, sam zobacz!
                                 </p>
                             </article>
                         </div>
-                        <div class="travel_pic">
+                        <div class="travel_pic" id="myImg" >
                             <a href='second.html' target='_blank'>
                                 <img src='images/gruzja1.jpg' border='0' alt='Monastyr w Gruzji' />
                             </a>
                         </div>
+                    </div>
+                </section>
+
+                <section class="travel_container">
+                    <h2 class="section-title">Zobacz wideo:</h2>
+                    <div class="description">
+                        <iframe width="850" height="425" src="https://www.youtube.com/embed/KNUcUBdYT58" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
                     </div>
                 </section>
             </div>
@@ -104,15 +120,16 @@
     </div>
     <footer class="footer">
         &copy; 2022 UEP &amp; WebDevelopers (Kamil&ampArtur)
-            <ul class="social-links">
-              <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
-              <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
-            </ul>
+        <ul class="social-links">
+            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+        </ul>
     </footer>
     </div>
 
     <script src="./app.js"></script>
 </body>
 </head>
+
 </html>
