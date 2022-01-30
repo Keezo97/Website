@@ -269,6 +269,25 @@ body {
 }
 
 
+/*TABELA*/
+#table {
+  width: 70%;
+  border-collapse: collapse;
+  margin:auto;
+  margin-bottom: 50px;
+}
+tr {
+  height:50px;
+  text-align: justify;
+}
+tr:hover {
+  background-color: #fff9f4;
+}
+td {
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
 /*contact*/
 
 
