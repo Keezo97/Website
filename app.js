@@ -6,5 +6,3 @@ const menuSlide = () =>{
         menuList.classList.toggle("burger-active");
     })
 }
-
-menuSlide();
