@@ -235,7 +235,6 @@ body {
 .travel_container {
   margin-top: 50px;
   margin-bottom: 50px;
-  border-top: 2px solid black;
 }
 .travel_container > div {
   display: flex;

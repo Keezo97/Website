@@ -1,3 +1,5 @@
+// Burger
+
 const burger = document.querySelector(".burger");
 const menuList = document.querySelector(".page-menu_list");
 
@@ -10,8 +12,7 @@ const menuSlide = () =>{
 
 menuSlide()
 
-
-"Current Date"
+// Current Date
 
 const date = document.querySelector(".date");
 let today = new Date();
@@ -23,3 +24,4 @@ let day = today.getDate();
 let currentDay = `${day}-${month}-${year}`;
 
 date.innerText = currentDay;
+
