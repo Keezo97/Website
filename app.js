@@ -1,3 +1,16 @@
+const scrollPage = () =>{
+    const content = document.getElementById("content");
+    const scrollButton = document.getElementById("scrollPage")
+    if(content && scrollButton){
+    scrollButton.addEventListener("click", ()=>{
+        content.scrollIntoView({
+            behavior: 'smooth',
+        });
+    })}
+}
+
+scrollPage();
+
 const plusMinus = () =>{
     const plus = document.querySelector(".plus");
     const minus = document.querySelector(".minus");
