@@ -20,7 +20,7 @@ body {
 /* header - css */
 
 .header {
-  background-image: url("https://i.postimg.cc/nc6sGtkp/pic2.jpg");
+  background-image: url("./images/pic2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -28,7 +28,7 @@ body {
   width: 100%;
 }
 .header2 {
-  background-image: url("https://i.postimg.cc/Qt7WdYhq/pexels-tom-mal-k-2990848.jpg");
+  background-image: url("./images/pic2.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
